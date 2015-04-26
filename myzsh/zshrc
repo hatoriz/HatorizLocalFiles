@@ -7,7 +7,8 @@ export ZSH=/Users/nathdanai/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="robbyrussell"
 #ZSH_THEME="powerline"
-ZSH_THEME="agnoster"
+#ZSH_THEME="agnoster"
+ZSH_THEME="muse"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -25,7 +26,7 @@ ZSH_THEME="agnoster"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -48,7 +49,7 @@ ZSH_THEME="agnoster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 #plugins=(git)
-plugins=(cake git sublime osx git-flow git-extras npm node theme web-search battery)
+plugins=(cake git sublime osx git-extras npm node theme web-search battery)
 # User configuration
 
 export PATH="/usr/local/heroku/bin:/Users/nathdanai/.rbenv/shims:/Users/nathdanai/.rbenv/shims:/Users/nathdanai/.rbenv/shims:/Users/nathdanai/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/nathdanai/Library/Android/sdk:/Users/nathdanai/Applications/gradle221"
