@@ -1,2 +1,2 @@
 # hatoriz_local_ansible
-To set up local ansible on Macbook 
+Try not to "repeat yourself" for setting up the development environment and tools on Mac OSX.
