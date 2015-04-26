@@ -2,6 +2,9 @@
 " Tsung-Hsiang (Sean) Chang <vgod@vgod.tw>
 " Fork me on GITHUB  https://github.com/vgod/vimrc
 
+" Modified again by Hatoriz based on Common Creative License
+" 26 April 2015
+
 " read https://github.com/vgod/vimrc/blob/master/README.md for more info
 
 
@@ -22,6 +25,7 @@ set bs=2		" allow backspacing over everything in insert mode
 set history=50		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
 set autoread		" auto read when file is changed from outside
+set nu                  " line number to be displayed"
 
 
 filetype off          " necessary to make ftdetect work on Linux
