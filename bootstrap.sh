@@ -57,6 +57,22 @@ else
   echo "Please install vim"
 fi
 
+# Check the Pretzo exists
+if [ ! -d ~/.zprezto ]; then
+   echo "Directory of .zprezto not found!"
+   git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+   /bin/zsh ./pretzo.sh
+else 
+   echo "OK .zprezto"
+fi
+
+# Link config file of Prezto
+#setopt EXTENDED_GLOB
+#for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
+#   ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
+#done
+
+
 # Run ansible which deals with the rest of the setup
 #echo "INFO Execute ansible playbook"
 #ansible-playbook -c local -i "localhost," -K ${SOURCE_DIR}/ansible/dev_environment.yml $*
