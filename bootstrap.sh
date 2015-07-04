@@ -66,6 +66,9 @@ else
    echo "OK .zprezto"
 fi
 
+echo "Install Graphiz"
+brew install graphviz
+
 # Link config file of Prezto
 #setopt EXTENDED_GLOB
 #for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
