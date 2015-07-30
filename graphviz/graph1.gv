@@ -1,0 +1,15 @@
+	digraph { 
+		subgraph cluster_0 {
+			label="Internet Zone";
+			IPDS -> "Mobile Server";
+			"Mobile Server" -> "Service Virtualization";
+			"Service Virtualization" -> "Easy Net";
+		}
+		
+		subgraph cluster_1 {
+			label="SIT Zone";
+			"Mobile Server" -> "Core Bank";
+			"Core Bank" -> "MQ";
+		}
+	}
+	
