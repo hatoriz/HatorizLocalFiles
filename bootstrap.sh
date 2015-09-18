@@ -57,6 +57,14 @@ else
   echo "Please install vim"
 fi
 
+if [[ 'which docker' ]]; then
+   echo "Docker is already installed"
+
+else
+   echo "Docker is not yet installed"
+   curl -sSL https://get.docker.com/ | sudo sh
+fi
+
 # Check the Pretzo exists
 if [ ! -d ~/.zprezto ]; then
    echo "Directory of .zprezto not found!"
