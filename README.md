@@ -1,11 +1,21 @@
 ```
-┌────────────────────────────────────────────────────────────────────────────┐
-│      __ __     __           _       __                 __  ____ __         │
-│     / // /__ _/ /____  ____(_)__   / /  ___  _______ _/ / / _(_) /__ ___   │
-│    / _  / _ `/ __/ _ \/ __/ /_ /  / /__/ _ \/ __/ _ `/ / / _/ / / -_|_-<   │
-│   /_//_/\_,_/\__/\___/_/ /_//__/ /____/\___/\__/\_,_/_/ /_//_/_/\__/___/   │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
+┏ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ 
+      .  .     .__        ,     ,              ┃
+┃     |\/|  .  [__) _  _ -+- __-+-._. _.._      
+      |  |\_|  [__)(_)(_) | _)  | [  (_][_)    ┃
+┃         ._|                           |       
+ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ┛
 ```
-# hatoriz_local_ansible
-Try not to "repeat yourself" for setting up the development environment and tools on Mac OSX.
+#Idea
+This is simple script to restore any pre-requisite tool
+on my mac.
+
+#List of tool
+* python 2.x
+* python 3.x
+* rvm - ruby version manager
+* ansible
+* Vim
+* docker
+* zsh script named "pretzo"
+* graphviz

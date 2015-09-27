@@ -77,6 +77,9 @@ fi
 echo "Install Graphiz"
 brew install graphviz
 
+echo "Install Python 3.x"
+brew install python3
+
 # Link config file of Prezto
 #setopt EXTENDED_GLOB
 #for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
