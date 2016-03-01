@@ -57,6 +57,15 @@ else
   echo "Please install vim"
 fi
 
+if [[ 'which docker-machine' ]]; then
+   echo "Docker Machine is already installed"
+
+else
+   echo "Installing Docker Machine..."
+   curl -L https://github.com/docker/machine/releases/download/v0.6.0/docker-machine-`uname -s`-`uname -m` >/usr/local/bin/docker-machine
+   chmod a+x /usr/local/bin/docker-machine
+fi
+
 if [[ 'which docker' ]]; then
    echo "Docker is already installed"
 
